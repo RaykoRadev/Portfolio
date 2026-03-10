@@ -1,0 +1,23 @@
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar-NavBar";
+import Home from "./components/home/Home";
+import { Route, Routes } from "react-router";
+import { ThemeProvider } from "./components/theme-provider/ThemeProvider";
+
+function App() {
+    return (
+        <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+            <div className="min-h-screen flex flex-col">
+                <Navbar />
+                <div className="flex-1">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                    </Routes>
+                </div>
+                <Footer />
+            </div>
+        </ThemeProvider>
+    );
+}
+
+export default App;
