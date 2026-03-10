@@ -16,9 +16,9 @@ export default function Home() {
             {/* me */}
             <div className="flex justify-between p-13 gap-10">
                 <div className="w-3/5 self-center">
-                    <h2 className="font-syne font-bold text-3xl text-space tracking-wide">
+                    <h3 className="font-syne font-bold text-3xl text-space tracking-wide">
                         Let's get know about me closer
-                    </h2>
+                    </h3>
                     <p className="mt-5 font-rubik text-neutral-400">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Similique error non rerum atque esse maxime itaque
@@ -38,6 +38,44 @@ export default function Home() {
                         src="me.jpg"
                         alt="me"
                     />
+                </div>
+            </div>
+
+            {/* projects overview */}
+            <div className="p-13">
+                <div className="flex flex-col">
+                    <h2 className="self-center font-syne font-bold text-4xl text-space tracking-wide">
+                        My Projects Highlight
+                    </h2>
+                    <Button className="mt-10 border border-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center">
+                        EXPLORER MOER &rarr;
+                    </Button>
+                </div>
+                <div className="flex gap-5 mt-15">
+                    <div>
+                        <img
+                            className="rounded-2xl"
+                            src="pet-shelter.png"
+                            alt=""
+                        />
+                        <p className="mt-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Enim minima autem accusantium officiis sed
+                            facilis tempora perspiciatis veniam quam animi!
+                        </p>
+                    </div>
+                    <div>
+                        <img
+                            className="rounded-2xl"
+                            src="smart-and-happy.png"
+                            alt=""
+                        />
+                        <p className="mt-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Enim minima autem accusantium officiis sed
+                            facilis tempora perspiciatis veniam quam animi!
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
