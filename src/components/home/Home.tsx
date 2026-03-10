@@ -30,9 +30,9 @@ export default function Home() {
                         Discover more about me
                     </Button>
                 </div>
-                <div className=" w-113.5 h-126.5 overflow-hidden rounded-2xl">
+                <div className="w-113.5 h-126.5 overflow-hidden rounded-2xl">
                     <img
-                        className="w-full h-full object-cover object-right"
+                        className="w-full h-full object-cover object-right opacity-70"
                         src="me.jpg"
                         alt="me"
                     />
