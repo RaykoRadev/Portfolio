@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
             {/* title */}
-            <div className="flex flex-col items-center align-middle">
+            <div className="flex flex-col items-center align-middle p-13">
                 <h1 className="mt-20 font-syne font-bold text-6xl text-center text-space tracking-wide">
                     Adaptive Logo Design for Your Brand
                 </h1>
@@ -14,7 +14,7 @@ export default function Home() {
             </div>
 
             {/* me */}
-            <div className="flex justify-between p-13">
+            <div className="flex justify-between p-13 gap-10">
                 <div className="w-3/5">
                     <h2>Let's get know about me closer</h2>
                     <p>
