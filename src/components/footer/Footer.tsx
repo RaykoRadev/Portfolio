@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div className="w-full py-5 flex flex-col gap-1">
             <p className="font-rubik text-center text-xl text-orange-400">
-                get touch with me:
+                get in touch with me:
             </p>
             <p className="font-rubik text-center text-2xl">
                 rayko_radev@yahoo.com
