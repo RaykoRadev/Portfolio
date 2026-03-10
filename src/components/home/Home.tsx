@@ -1,6 +1,9 @@
 import { Button } from "@base-ui/react/button";
+import { useTheme } from "../theme-provider/ThemeProvider";
 
 export default function Home() {
+    const { theme } = useTheme();
+
     return (
         <>
             {/* title */}
@@ -34,7 +37,7 @@ export default function Home() {
                     {/* <p className="border border-orange-400 w-27.5 h-8.5 z-50 rounded-2xl absolute -top-4 right-0"></p>
                     <p className="border border-orange-400 w-12.5 h-44.5 z-50 rounded-3xl absolute bottom-8 -left-6"></p> */}
                     <img
-                        className="w-full h-full object-cover object-right opacity-70 rounded-2xl"
+                        className={`${theme === "dark" ? "opacity-70" : ""} w-full h-full object-cover object-right  rounded-2xl`}
                         src="me.jpg"
                         alt="me"
                     />
@@ -47,7 +50,9 @@ export default function Home() {
                     <h2 className="self-center font-syne font-bold text-4xl text-space tracking-wide">
                         My Projects Highlight
                     </h2>
-                    <Button className="mt-10 border border-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center">
+                    <Button
+                        className={`${theme === "dark" ? "text-slate-100" : "text-gray-700"} mt-10 border border-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm  tracking-[1.63px] self-center`}
+                    >
                         EXPLORER MOER &rarr;
                     </Button>
                 </div>
