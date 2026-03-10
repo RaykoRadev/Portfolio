@@ -16,14 +16,19 @@ export default function Home() {
             {/* me */}
             <div className="flex justify-between p-13 gap-10">
                 <div className="w-3/5">
-                    <h2>Let's get know about me closer</h2>
-                    <p>
+                    <h2 className="font-syne font-bold text-3xl text-space tracking-wide">
+                        Let's get know about me closer
+                    </h2>
+                    <p className="mt-5 font-rubik text-neutral-400">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Similique error non rerum atque esse maxime itaque
                         exercitationem et ipsam ex asperiores consectetur
                         aspernatur nemo, nam optio doloremque iste? Eveniet,
                         reiciendis.
                     </p>
+                    <Button className="mt-10 bg-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center">
+                        Discover more about me
+                    </Button>
                 </div>
                 <div className=" w-113.5 h-126.5 overflow-hidden rounded-2xl">
                     <img
