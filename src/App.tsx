@@ -7,7 +7,7 @@ import { ThemeProvider } from "./components/theme-provider/ThemeProvider";
 function App() {
     return (
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-            <div className="min-h-screen flex flex-col">
+            <div className="min-h-screen max-w-325 flex flex-col mx-auto">
                 <Navbar />
                 <div className="flex-1">
                     <Routes>
