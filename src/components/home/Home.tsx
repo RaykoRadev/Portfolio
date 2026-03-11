@@ -47,7 +47,8 @@ export default function Home() {
                     <p className="border border-orange-400 w-12.5 h-44.5 z-50 rounded-3xl absolute bottom-8 -left-6"></p> */}
                     <img
                         className={`${theme === "dark" ? "opacity-70" : ""} w-full h-full object-cover object-right  rounded-2xl`}
-                        src="me.jpg"
+                        src="https://i.ibb.co/RGWWGbHW/me.jpg"
+                        // src="me.jpg"
                         alt="me"
                     />
                 </div>
@@ -63,14 +64,14 @@ export default function Home() {
                         onClick={myWorksHandler}
                         className={`${theme === "dark" ? "text-slate-100" : "text-gray-700"} mt-10 border border-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm  tracking-[1.63px] self-center`}
                     >
-                        EXPLORER MOER &rarr;
+                        EXPLORER MORE &rarr;
                     </Button>
                 </div>
                 <div className="flex gap-5 mt-15">
                     <div>
                         <img
                             className="rounded-2xl"
-                            src="smart-and-happy.png"
+                            src="https://i.ibb.co/fVcy8xqb/smart-and-happy.png"
                             alt=""
                         />
                         <p className="mt-5">
@@ -82,7 +83,7 @@ export default function Home() {
                     <div>
                         <img
                             className="rounded-2xl"
-                            src="pet-shelter.png"
+                            src="https://i.ibb.co/CpC49Xd3/pet-shelter.png"
                             alt=""
                         />
                         <p className="mt-5">
