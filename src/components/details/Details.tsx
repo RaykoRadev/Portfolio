@@ -18,7 +18,7 @@ export default function Details() {
                 </p>
                 <p className="mt-5">Links:"</p>
                 <p className="mt-5">server: git:..... deploy: ......"</p>
-                <p className="mt-5">app: git:..... deploy: ......"</p>
+                <p className="mt-5">app: git:.....m deploy: ......"</p>
                 <p className="mt-5">
                     Desctription: Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Enim minima autem accusantium officiis sed
