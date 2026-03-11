@@ -20,7 +20,8 @@ export const projects = [
         img: "https://i.ibb.co/CpC49Xd3/pet-shelter.png",
         title: "Pet shelter",
         technology: "React, Tailwind",
-        description: "",
+        description:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
     },
 
     {
@@ -28,6 +29,7 @@ export const projects = [
         img: "https://i.ibb.co/rKP3KKwY/handmade-gift-cards.png",
         title: "Handmade gift cards",
         technology: "Angular, TypeScript",
-        description: "",
+        description:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
     },
 ];
