@@ -14,7 +14,7 @@ export default function Navbar() {
     };
 
     return (
-        <div className="sticky top-0 z-50 flex justify-between align-baseline p-13 pb-3 backdrop-blur-xl">
+        <div className="sticky top-0 z-50 flex justify-between align-baseline px-13 py-7 backdrop-blur-xl">
             <p className="font-syne font-bold text-[30px]">That is a navBar</p>
             <div className="flex gap-4">
                 <Button

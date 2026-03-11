@@ -20,9 +20,9 @@ export default function MyWorks() {
         navigate(`/details/${id}`);
     };
     return (
-        <div className="p-13">
+        <div className="px-13">
             <PageTitle name={"My Works"} info={"Showcasese About Works"} />
-            <div className="flex gap-5 mt-15">
+            <div className="grid grid-cols-3 gap-7 mt-15">
                 {projects.map((project) => (
                     <div>
                         <img className="rounded-2xl" src={project.img} alt="" />
