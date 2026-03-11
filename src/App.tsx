@@ -3,6 +3,7 @@ import Navbar from "./components/navbar-NavBar";
 import Home from "./components/home/Home";
 import { Route, Routes } from "react-router";
 import { ThemeProvider } from "./components/theme-provider/ThemeProvider";
+import MyWorks from "./components/myWorks/MyWorks";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <div className="flex-1">
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="/my-works" element={<MyWorks />} />
                     </Routes>
                 </div>
                 <Footer />

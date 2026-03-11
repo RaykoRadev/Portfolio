@@ -1,8 +1,14 @@
 import { Button } from "@base-ui/react/button";
 import { useTheme } from "../theme-provider/ThemeProvider";
+import { useNavigate } from "react-router";
 
 export default function Home() {
+    const navigate = useNavigate();
     const { theme } = useTheme();
+
+    const myWorksHandler = () => {
+        navigate("/my-works");
+    };
 
     return (
         <>
@@ -11,7 +17,10 @@ export default function Home() {
                 <h1 className="font-syne font-bold text-6xl text-center text-space tracking-wide">
                     Adaptive Logo Design for Your Brand
                 </h1>
-                <Button className="mt-20 bg-orange-400 rounded-full px-7 py-4 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center">
+                <Button
+                    onClick={myWorksHandler}
+                    className="mt-20 bg-orange-400 rounded-full px-7 py-4 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center"
+                >
                     EXPLORER WORKS &rarr;
                 </Button>
             </div>
@@ -51,6 +60,7 @@ export default function Home() {
                         My Projects Highlight
                     </h2>
                     <Button
+                        onClick={myWorksHandler}
                         className={`${theme === "dark" ? "text-slate-100" : "text-gray-700"} mt-10 border border-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm  tracking-[1.63px] self-center`}
                     >
                         EXPLORER MOER &rarr;
@@ -60,7 +70,7 @@ export default function Home() {
                     <div>
                         <img
                             className="rounded-2xl"
-                            src="pet-shelter.png"
+                            src="smart-and-happy.png"
                             alt=""
                         />
                         <p className="mt-5">
@@ -72,7 +82,7 @@ export default function Home() {
                     <div>
                         <img
                             className="rounded-2xl"
-                            src="smart-and-happy.png"
+                            src="pet-shelter.png"
                             alt=""
                         />
                         <p className="mt-5">
