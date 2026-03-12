@@ -4,14 +4,6 @@ import { Button } from "../ui/button";
 import { useTheme } from "../theme-provider/ThemeProvider";
 import { useNavigate } from "react-router";
 
-// type Projects = {
-//     _id: string;
-//     img: string;
-//     title: string;
-//     technology: string;
-//     description: string;
-// };
-
 export default function MyWorks() {
     const navigate = useNavigate();
     const { theme } = useTheme();
