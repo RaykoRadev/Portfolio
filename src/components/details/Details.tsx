@@ -30,13 +30,18 @@ export default function Details() {
                     <p className="mt-5  text-xl">
                         <span className="font-bold text-orange-400">App: </span>
                         <Button variant="link">
-                            <Link className="text-xl" to={project.app.git}>
+                            <Link
+                                target="_blank"
+                                className="text-xl"
+                                to={project.app.git}
+                            >
                                 Git repository
                             </Link>
                         </Button>
                         {project.app.deploy && (
                             <Button variant="link">
                                 <Link
+                                    target="_blank"
                                     className="text-xl"
                                     to={project.app.deploy}
                                 >
@@ -52,6 +57,7 @@ export default function Details() {
                             </span>
                             <Button variant="link">
                                 <Link
+                                    target="_blank"
                                     className="text-xl"
                                     to={project.server?.git}
                                 >
@@ -60,10 +66,11 @@ export default function Details() {
                             </Button>
                             <Button variant="link">
                                 <Link
+                                    target="_blank"
                                     className="text-xl"
-                                    to={project.server?.deploy}
+                                    to={project.server?.link}
                                 >
-                                    Deploy
+                                    Deployed on {project.server?.deploy}
                                 </Link>
                             </Button>
                         </p>

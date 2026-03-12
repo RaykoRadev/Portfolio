@@ -10,6 +10,7 @@ export type Project = {
     server?: {
         git: string;
         deploy: string;
+        link: string;
     };
     description: string;
 };

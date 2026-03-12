@@ -10,7 +10,8 @@ export const projects = [
         },
         server: {
             git: "https://github.com/RaykoRadev/server-school-project",
-            deploy: "https://dashboard.render.com/project/prj-d65ghehr0fns738aqgc0",
+            deploy: "render.com",
+            link: "https://render.com/",
         },
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
@@ -26,7 +27,8 @@ export const projects = [
         },
         server: {
             git: "https://github.com/RaykoRadev/back-end-server---nodeJS-express",
-            deploy: "https://dashboard.render.com/web/srv-d4m1libe5dus73826s20",
+            deploy: "render.com",
+            link: "https://render.com/",
         },
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
@@ -42,7 +44,8 @@ export const projects = [
         },
         server: {
             git: "https://github.com/RaykoRadev/back-end-server---nodeJS-express",
-            deploy: "https://dashboard.render.com/web/srv-d4m1libe5dus73826s20",
+            deploy: "render.com",
+            link: "https://render.com/",
         },
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
