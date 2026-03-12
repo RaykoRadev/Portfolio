@@ -22,7 +22,7 @@ export const projects = [
         technology: "React, Tailwind, TypeScript, TanStack Query, Zod, Sonner",
         app: {
             git: "https://github.com/RaykoRadev/Pet-Shelter-React-Course-project-TS",
-            deploy: "",
+            // deploy: "",
         },
         server: {
             git: "https://github.com/RaykoRadev/back-end-server---nodeJS-express",
