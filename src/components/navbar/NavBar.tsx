@@ -9,8 +9,12 @@ export default function Navbar() {
         navigate("/my-works");
     };
 
-    const homHandler = () => {
+    const homeHandler = () => {
         navigate("/");
+    };
+
+    const aboutMeHandler = () => {
+        navigate("/about-me");
     };
 
     return (
@@ -18,13 +22,14 @@ export default function Navbar() {
             <p className="font-syne font-bold text-[30px]">That is a navBar</p>
             <div className="flex gap-4">
                 <Button
-                    onClick={homHandler}
+                    onClick={homeHandler}
                     variant="outline"
                     className="rounded-full w-34.5 h-11.75 text-base font-rubik opacity-80"
                 >
                     Home
                 </Button>
                 <Button
+                    onClick={aboutMeHandler}
                     variant="outline"
                     className="rounded-full w-34.5 h-11.75 text-base font-rubik  opacity-80"
                 >

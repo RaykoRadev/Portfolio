@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router";
 import { ThemeProvider } from "./components/theme-provider/ThemeProvider";
 import MyWorks from "./components/my-works/MyWorks";
 import Details from "./components/details/Details";
+import AboutMe from "./components/about-me/AboutMe";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/my-works" element={<MyWorks />} />
                         <Route path="/details/:id" element={<Details />} />
+                        <Route path="/about-me" element={<AboutMe />} />
                     </Routes>
                 </div>
                 <Footer />

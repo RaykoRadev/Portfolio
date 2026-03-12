@@ -22,15 +22,15 @@ export default function Footer() {
                         />
                         <SocialIcon
                             style={{ height: 25, width: 25 }}
-                            url="https://www.linkedin.com/in/rayko-radev-996267bb/"
-                        />
-                        <SocialIcon
-                            style={{ height: 25, width: 25 }}
                             url="https://www.instagram.com/rayko_radev/"
                         />
                         <SocialIcon
                             style={{ height: 25, width: 25 }}
                             url="https://www.facebook.com/christmas898/"
+                        />
+                        <SocialIcon
+                            style={{ height: 25, width: 25 }}
+                            url="https://www.linkedin.com/in/rayko-radev-996267bb/"
                         />
                     </div>
                 </div>
