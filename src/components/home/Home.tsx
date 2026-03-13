@@ -10,6 +10,10 @@ export default function Home() {
         navigate("/my-works");
     };
 
+    const aboutMeHandler = () => {
+        navigate("/about-me");
+    };
+
     return (
         <div className="max-w-6xl mx-auto">
             {/* title */}
@@ -38,7 +42,10 @@ export default function Home() {
                         aspernatur nemo, nam optio doloremque iste? Eveniet,
                         reiciendis.
                     </p>
-                    <Button className="mt-10 bg-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center">
+                    <Button
+                        onClick={aboutMeHandler}
+                        className="mt-10 bg-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center"
+                    >
                         Discover more about me
                     </Button>
                 </div>
