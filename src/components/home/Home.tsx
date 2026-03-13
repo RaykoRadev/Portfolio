@@ -11,23 +11,23 @@ export default function Home() {
     };
 
     return (
-        <>
+        <div className="max-w-6xl mx-auto">
             {/* title */}
             <div className="flex flex-col items-center align-middle p-13">
-                <h1 className="font-syne font-bold text-6xl text-center text-space tracking-wide">
+                <h1 className="ont-syne font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center text-space tracking-wide">
                     Adaptive Logo Design for Your Brand
                 </h1>
                 <Button
                     onClick={myWorksHandler}
-                    className="mt-20 bg-orange-400 rounded-full px-7 py-4 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center"
+                    className="mt-10 md:mt-16 lg:mt-20 bg-orange-400 rounded-full px-7 py-4 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center"
                 >
                     EXPLORER WORKS &rarr;
                 </Button>
             </div>
 
             {/* me */}
-            <div className="flex justify-between p-13 gap-10">
-                <div className="w-3/5 self-center">
+            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-6 md:p-10 lg:p-13 gap-10 text-center lg:text-left">
+                <div className="w-full lg:w-3/5 mx-auto lg:mx-0">
                     <h3 className="font-syne font-bold text-3xl text-space tracking-wide">
                         Let's get know about me closer
                     </h3>
@@ -42,11 +42,11 @@ export default function Home() {
                         Discover more about me
                     </Button>
                 </div>
-                <div className="relative w-113.5 h-126.5  rounded-2xl">
+                <div className="relative w-full max-w-[350px] lg:max-w-none lg:w-113.5 h-[420px] md:h-[500px] lg:h-126.5 rounded-2xl mx-auto flex justify-center">
                     {/* <p className="border border-orange-400 w-27.5 h-8.5 z-50 rounded-2xl absolute -top-4 right-0"></p>
                     <p className="border border-orange-400 w-12.5 h-44.5 z-50 rounded-3xl absolute bottom-8 -left-6"></p> */}
                     <img
-                        className={`${theme === "dark" ? "opacity-70" : ""} w-full h-full object-cover object-right  rounded-2xl`}
+                        className={`${theme === "dark" ? "opacity-70" : ""} w-full max-w-md h-[400px] md:h-[500px] lg:w-113.5 lg:h-126.5 object-cover object-right  rounded-2xl`}
                         src="https://i.ibb.co/RGWWGbHW/me.jpg"
                         // src="me.jpg"
                         alt="me"
@@ -67,10 +67,10 @@ export default function Home() {
                         EXPLORER MORE &rarr;
                     </Button>
                 </div>
-                <div className="flex gap-5 mt-15">
-                    <div>
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mt-10 md:mt-15">
+                    <div className="md:w-1/2 text-center md:text-left">
                         <img
-                            className="rounded-2xl"
+                            className="rounded-2xl w-full"
                             src="https://i.ibb.co/fVcy8xqb/smart-and-happy.png"
                             alt=""
                         />
@@ -80,9 +80,9 @@ export default function Home() {
                             facilis tempora perspiciatis veniam quam animi!
                         </p>
                     </div>
-                    <div>
+                    <div className="md:w-1/2 text-center md:text-left">
                         <img
-                            className="rounded-2xl"
+                            className="rounded-2xl w-full"
                             src="https://i.ibb.co/CpC49Xd3/pet-shelter.png"
                             alt=""
                         />
@@ -94,6 +94,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
