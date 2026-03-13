@@ -12,27 +12,33 @@ export default function Details() {
         return <div>Project not found</div>;
     }
     return (
-        <div className="px-13 pb-15">
+        <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-13 pb-10 md:pb-15">
             <PageTitle name="Details" info="Details About The Project" />
             <div>
-                <img className="rounded-2xl my-10" src={project.img} alt="" />
-                <div className="w-2/3 mx-auto">
-                    <h5 className="mt-5 font-syne text-3xl self-center">
+                <img
+                    className="rounded-2xl w-full h-auto my-8 md:my-10 object-cover"
+                    src={project.img}
+                    alt=""
+                />
+
+                <div className="w-full md:w-2/3 mx-auto text-left md:text-left">
+                    <h5 className="mt-5 font-syne text-2xl sm:text-3xl md:text-3xl font-bold">
                         {project.title}
                     </h5>
 
-                    <p className="mt-5 text-xl">
+                    <p className="mt-4 text-base sm:text-lg md:text-xl">
                         <span className="font-bold text-orange-400">
-                            Technology:{"  "}
+                            Technology:{" "}
                         </span>
                         {project.technology}
                     </p>
-                    <p className="mt-5  text-xl">
+
+                    <div className="mt-4 text-base sm:text-lg md:text-xl">
                         <span className="font-bold text-orange-400">App: </span>
                         <Button variant="link">
                             <Link
                                 target="_blank"
-                                className="text-xl"
+                                className="text-base sm:text-lg md:text-xl"
                                 to={project.app.git}
                             >
                                 Git repository
@@ -42,24 +48,24 @@ export default function Details() {
                             <Button variant="link">
                                 <Link
                                     target="_blank"
-                                    className="text-xl"
+                                    className="text-base sm:text-lg md:text-xl"
                                     to={project.app.deploy}
                                 >
                                     Deploy
                                 </Link>
                             </Button>
                         )}
-                    </p>
+                    </div>
                     {project.server && (
-                        <p className="mt-5  text-xl">
+                        <div className="mt-4 text-base sm:text-lg md:text-xl">
                             <span className="font-bold text-orange-400">
-                                Server:
+                                Server:{" "}
                             </span>
                             <Button variant="link">
                                 <Link
                                     target="_blank"
-                                    className="text-xl"
-                                    to={project.server?.git}
+                                    className="text-base sm:text-lg md:text-xl"
+                                    to={project.server.git}
                                 >
                                     Git repository
                                 </Link>
@@ -67,17 +73,18 @@ export default function Details() {
                             <Button variant="link">
                                 <Link
                                     target="_blank"
-                                    className="text-xl"
-                                    to={project.server?.link}
+                                    className="text-base sm:text-lg md:text-xl"
+                                    to={project.server.link}
                                 >
-                                    Deployed on {project.server?.deploy}
+                                    Deployed on {project.server.deploy}
                                 </Link>
                             </Button>
-                        </p>
+                        </div>
                     )}
-                    <p className="mt-5  text-xl">
+
+                    <p className="mt-4 text-base sm:text-lg md:text-xl">
                         <span className="font-bold text-orange-400">
-                            Desctription:{"  "}
+                            Description:{" "}
                         </span>
                         {project.description}
                     </p>
