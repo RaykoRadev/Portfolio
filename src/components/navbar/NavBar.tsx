@@ -18,31 +18,39 @@ export default function Navbar() {
     };
 
     return (
-        <div className="sticky top-0 z-50 flex justify-between align-baseline px-13 py-7 backdrop-blur-xl">
-            <p className="font-syne font-bold text-[30px]">That is a navBar</p>
-            <div className="flex gap-4">
-                <Button
-                    onClick={homeHandler}
-                    variant="outline"
-                    className="rounded-full w-34.5 h-11.75 text-base font-rubik opacity-80"
-                >
-                    Home
-                </Button>
-                <Button
-                    onClick={aboutMeHandler}
-                    variant="outline"
-                    className="rounded-full w-34.5 h-11.75 text-base font-rubik  opacity-80"
-                >
-                    About me
-                </Button>
-                <Button
-                    onClick={myWorksHandler}
-                    variant="outline"
-                    className="rounded-full w-34.5 h-11.75 text-base font-rubik  opacity-80"
-                >
-                    My works
-                </Button>
-                <ModeToggle />
+        <div className="sticky top-0 z-50 backdrop-blur-xl">
+            <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center sm:items-baseline justify-between gap-4 px-6 md:px-10 lg:px-13 py-5 md:py-7">
+                <p className="font-syne font-bold text-2xl md:text-[30px]">
+                    That is a navBar
+                </p>
+
+                <div className="flex flex-wrap justify-center sm:justify-end gap-3 sm:gap-4">
+                    <Button
+                        onClick={homeHandler}
+                        variant="outline"
+                        className="rounded-full px-5 h-11 text-sm md:text-base font-rubik opacity-80"
+                    >
+                        Home
+                    </Button>
+
+                    <Button
+                        onClick={aboutMeHandler}
+                        variant="outline"
+                        className="rounded-full px-5 h-11 text-sm md:text-base font-rubik opacity-80"
+                    >
+                        About me
+                    </Button>
+
+                    <Button
+                        onClick={myWorksHandler}
+                        variant="outline"
+                        className="rounded-full px-5 h-11 text-sm md:text-base font-rubik opacity-80"
+                    >
+                        My works
+                    </Button>
+
+                    <ModeToggle />
+                </div>
             </div>
         </div>
     );
