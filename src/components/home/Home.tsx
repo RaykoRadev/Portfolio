@@ -42,11 +42,11 @@ export default function Home() {
                         Discover more about me
                     </Button>
                 </div>
-                <div className="relative w-full max-w-[350px] lg:max-w-none lg:w-113.5 h-[420px] md:h-[500px] lg:h-126.5 rounded-2xl mx-auto flex justify-center">
+                <div className="relative w-full max-w-87.5 lg:max-w-none lg:w-113.5 h-105 md:h-125 lg:h-126.5 rounded-2xl mx-auto flex justify-center">
                     {/* <p className="border border-orange-400 w-27.5 h-8.5 z-50 rounded-2xl absolute -top-4 right-0"></p>
                     <p className="border border-orange-400 w-12.5 h-44.5 z-50 rounded-3xl absolute bottom-8 -left-6"></p> */}
                     <img
-                        className={`${theme === "dark" ? "opacity-70" : ""} w-full max-w-md h-[400px] md:h-[500px] lg:w-113.5 lg:h-126.5 object-cover object-right  rounded-2xl`}
+                        className={`${theme === "dark" ? "opacity-70" : ""} w-full max-w-md h-100 md:h-125 lg:w-113.5 lg:h-126.5 object-cover object-right  rounded-2xl`}
                         src="https://i.ibb.co/RGWWGbHW/me.jpg"
                         // src="me.jpg"
                         alt="me"
@@ -55,9 +55,9 @@ export default function Home() {
             </div>
 
             {/* projects overview */}
-            <div className="p-13">
+            <div className="px-10 lg:px-13 py-10">
                 <div className="flex flex-col">
-                    <h2 className="self-center font-syne font-bold text-4xl text-space tracking-wide">
+                    <h2 className="font-syne font-bold text-3xl sm:text-4xl text-center text-space tracking-wide mx-auto">
                         My Projects Highlight
                     </h2>
                     <Button
