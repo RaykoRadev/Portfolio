@@ -20,17 +20,17 @@ export default function AboutMe() {
                     </p>
                 </div>
                 {/* photos */}
-                <div className="flex flex-col md:flex-row gap-6 items-center md:items-start sm:mx-13">
+                <div className="flex flex-col md:flex-row gap-6 items-center md:items-start sm:mx-13 md:mx-0">
                     <div className="relative w-full  md:max-w-none md:w-113.5 md:h-126.5 rounded-2xl mx-auto">
                         <img
-                            className="w-full h-full object-cover object-right  rounded-2xl"
+                            className="w-full h-full object-cover object-right rounded-2xl"
                             src="https://i.ibb.co/RGWWGbHW/me.jpg"
                             alt=""
                         />
                     </div>
                     <div className="relative w-full max-w-200 md:max-w-none md:w-200 md:h-126.5 rounded-2xl mx-auto">
                         <img
-                            className="w-full h-full object-cover object-right  rounded-2xl"
+                            className="w-full h-full object-cover object-right rounded-2xl"
                             src="https://i.ibb.co/S71Y976M/IMG-20250904-153656-1.jpg"
                             alt=""
                         />
