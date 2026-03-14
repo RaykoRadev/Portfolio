@@ -2,6 +2,33 @@ import { Link } from "react-router";
 import PageTitle from "../page-title/PageTitle";
 import { Button } from "../ui/button";
 
+const certificates = [
+    {
+        name: "react",
+        link: "https://i.ibb.co/Xk553Nyt/React-JS-Certificate.png",
+    },
+    {
+        name: "backEnd",
+        link: "https://i.ibb.co/NdcCWwdf/JS-Back-End-Certificate.png",
+    },
+    {
+        name: "typeScript",
+        link: "https://i.ibb.co/RkX7mMzJ/Type-Script-Certificate.png",
+    },
+    {
+        name: "angular",
+        link: "https://i.ibb.co/sddYC270/Angular-Certificate.png",
+    },
+    {
+        name: "htmlCss",
+        link: "https://i.ibb.co/dwGbSJMX/HTML-CSS-Certificate.png",
+    },
+    // {
+    //     name: "",
+    //     link: "",
+    // },
+];
+
 export default function AboutMe() {
     return (
         <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-13">
@@ -117,7 +144,7 @@ export default function AboutMe() {
                 </div>
                 {/* photos */}
                 <div className="flex flex-col md:flex-row gap-6 items-center md:items-start sm:mx-13 md:mx-0">
-                    <div className="relative w-full  md:max-w-none md:w-113.5 md:h-126.5 rounded-2xl mx-auto">
+                    <div className="relative w-full md:max-w-none md:w-113.5 md:h-126.5 rounded-2xl mx-auto">
                         <img
                             className="w-full h-full object-cover object-right rounded-2xl"
                             src="https://i.ibb.co/RGWWGbHW/me.jpg"
@@ -132,6 +159,28 @@ export default function AboutMe() {
                         />
                     </div>
                 </div>
+
+                {/* certificates */}
+                <div className="my-20 md:items-start sm:mx-13 md:mx-0">
+                    <h3 className="font-syne font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                        Certificates
+                    </h3>
+                    <div className="mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 items-center ">
+                        {certificates.map((certificate) => (
+                            <div
+                                key={certificate.name}
+                                className="relative w-full md:max-w-none rounded-2xl mx-auto"
+                            >
+                                <img
+                                    className="rounded-2xl"
+                                    src={certificate.link}
+                                    alt=""
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
                 {/* follow me */}
                 <div className="my-20">
                     <h4 className="text-center font-syne font-bold text-2xl md:text-3xl lg:text-4xl text-space -tracking-[0.5px]">
