@@ -19,7 +19,8 @@ export default function Home() {
             {/* title */}
             <div className="flex flex-col items-center align-middle p-13">
                 <h1 className="ont-syne font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center text-space tracking-wide">
-                    Highly Motivated Front-End Developer
+                    JavaScript Developer Transitioning from Healthcare to
+                    Technology
                 </h1>
                 <Button
                     onClick={myWorksHandler}
