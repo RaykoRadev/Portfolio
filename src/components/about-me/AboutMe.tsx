@@ -171,7 +171,7 @@ export default function AboutMe() {
                                 className="font-[Inter] font-bold text-neutral-400 text-xl sm:text-2xl md:text-[32px] tracking-[4px]"
                                 to="https://www.linkedin.com/in/rayko-radev-996267bb/"
                             >
-                                LINKDN
+                                LINKEDIN
                             </Link>
                         </Button>
                     </div>
