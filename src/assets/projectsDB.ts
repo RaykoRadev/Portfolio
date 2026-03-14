@@ -3,7 +3,8 @@ export const projects = [
         _id: "8",
         img: "https://i.ibb.co/fVcy8xqb/smart-and-happy.png",
         title: "Smart and Happy",
-        technology: "React, Tailwind, TanStack Query, Sonner",
+        technology:
+            "React, Tailwind, TanStack Query, Sonner, Node.js/Express, MongoDB, REST API",
         app: {
             git: "https://github.com/RaykoRadev/school-puzzle-and-tasks",
             deploy: "https://smart-and-happy.web.app/",
@@ -14,7 +15,7 @@ export const projects = [
             link: "https://render.com/",
         },
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
+            "This  is a real-world application currently used in production. I developed both the frontend and backend, implementing the full architecture from the user interface to the server and database. The project focuses on creating a smooth user experience, efficient data handling, and maintainable code structure.",
     },
     {
         _id: "7",
@@ -31,13 +32,13 @@ export const projects = [
             link: "https://render.com/",
         },
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
+            "This project was developed targeting to improve my TypeScript skills. It is based on Pet Shelter project, upgreading with TanStackQuery, Zod. ",
     },
     {
         _id: "6",
         img: "https://i.ibb.co/CpC49Xd3/pet-shelter.png",
         title: "Pet shelter",
-        technology: "React, Tailwind",
+        technology: "React, Tailwind, Node.js/Express, MongoDB, REST API",
         app: {
             git: "https://github.com/RaykoRadev/Pet-Shelter-React-Course-project",
             deploy: "https://pet-shelter-react-course-project.vercel.app/",
@@ -48,7 +49,7 @@ export const projects = [
             link: "https://render.com/",
         },
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
+            "This project was developed as part of the JavaScript curriculum at SoftUni. It is a full-stack web application designed to demonstrate practical use of modern web technologies. The application includes features such as user authentication, dynamic data management, and responsive UI components.",
     },
 
     {
@@ -61,7 +62,7 @@ export const projects = [
             deploy: "https://handmade-cards-by-fresia.vercel.app/home",
         },
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima autem accusantium officiis sed facilis tempora perspiciatis veniam quam animi!",
+            "This project was developed as part of the JavaScript curriculum at SoftUni. It is a full-stack web application designed to demonstrate practical use of modern web technologies. The application includes features such as user authentication, dynamic data management, and responsive UI components.",
     },
     // {
     //     _id: "",

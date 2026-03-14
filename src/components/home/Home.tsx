@@ -19,7 +19,7 @@ export default function Home() {
             {/* title */}
             <div className="flex flex-col items-center align-middle p-13">
                 <h1 className="ont-syne font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center text-space tracking-wide">
-                    Adaptive Logo Design for Your Brand
+                    Highly Motivated Front-End Developer
                 </h1>
                 <Button
                     onClick={myWorksHandler}
@@ -36,11 +36,19 @@ export default function Home() {
                         Let's get know about me closer
                     </h3>
                     <p className="mt-5 font-rubik text-neutral-400">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Similique error non rerum atque esse maxime itaque
-                        exercitationem et ipsam ex asperiores consectetur
-                        aspernatur nemo, nam optio doloremque iste? Eveniet,
-                        reiciendis. + Iconst of all thchnology i know
+                        I'm a JavaScript developer with a background in
+                        healthcare and over a decade of professional experience
+                        working with people. After graduating as a
+                        physiotherapist and working several years in
+                        rehabilitation and wellness, I transitioned into
+                        software development and completed the full JavaScript
+                        track at SoftUni.
+                        <br />
+                        Today I focus on building modern web applications using
+                        TypeScript, React, Angular, Node.js, Express, and
+                        MongoDB, while continuously expanding my skills with
+                        tools such as TanStack Query, Tailwind CSS, Zod, and
+                        Shadcn UI.
                         <div className="mt-3 flex gap-2">
                             {/* react */}
                             <svg

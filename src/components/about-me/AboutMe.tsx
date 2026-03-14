@@ -9,14 +9,110 @@ export default function AboutMe() {
             <div>
                 {/* description about me */}
                 <div className="my-12 md:my-20 flex flex-col md:flex-row items-center md:items-start gap-8 text-center md:text-left">
-                    <h1 className="w-full md:w-1/2 font-syne font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        To become rich :D
-                    </h1>
-                    <p className="w-full md:w-1/2 font-[Open_Sans] font-semibold text-lg md:text-[21px] max-w-xl mx-auto md:mx-0">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Fugiat nemo officia, alias repellendus a omnis
-                        quasi ipsum corrupti voluptates ut est qui nisi animi.
-                        Iure facere provident similique cupiditate consectetur.
+                    <div className="w-full md:w-1/2 ">
+                        <h3 className="font-syne font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                            Skills:
+                        </h3>
+
+                        <h3 className="mt-5 text-orange-400 font-syne font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                            Frontend:
+                        </h3>
+                        <p className="mt-2 font-rubik text-lg">
+                            JavaScript (ES6+), TypeScript, React, Angular,
+                            HTML5, CSS3, Responsive Design, Tailwind CSS, Shadcn
+                            UI
+                        </p>
+
+                        <h3 className="mt-5 text-orange-400 font-syne font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                            Backend:
+                        </h3>
+                        <p className="mt-2 font-rubik text-lg">
+                            Node.js, Express.js, REST APIs, Authentication, CRUD
+                            Operations
+                        </p>
+
+                        <h3 className="mt-5 text-orange-400 font-syne font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                            Databases:
+                        </h3>
+                        <p className="mt-2 font-rubik text-lg">
+                            MongoDB, (Currently learning PostgreSQL)
+                        </p>
+
+                        <h3 className="mt-5 text-orange-400 font-syne font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                            State Management & Data:
+                        </h3>
+                        <p className="mt-2 font-rubik text-lg">
+                            TanStack Query, API Integration, Client‑Server Data
+                            Flow
+                        </p>
+
+                        <h3 className="mt-5 text-orange-400 font-syne font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                            Validation & Utilities:
+                        </h3>
+                        <p className="mt-2 font-rubik text-lg">
+                            Zod, Form Validation, Error Handling
+                        </p>
+
+                        <h3 className="mt-5 text-orange-400 font-syne font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                            Tools & Workflow:
+                        </h3>
+                        <p className="mt-2 font-rubik text-lg">
+                            Git, GitHub, NPM, Modular Architecture,
+                            Component‑Based Development
+                        </p>
+
+                        <h3 className="mt-5 text-orange-400 font-syne font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                            Learning & Upcoming:
+                        </h3>
+                        <p className="mt-2 font-rubik text-lg">
+                            Advanced TypeScript, PostgreSQL, DevOps
+                            fundamentals, React Native
+                        </p>
+                    </div>
+                    <p className="w-full md:w-1/2 font-[Open_Sans] tracking-wide text-lg md:text-[21px] max-w-xl mx-auto md:mx-0">
+                        I am a JavaScript developer with a strong background in
+                        healthcare and client-oriented work. I graduated as a
+                        physiotherapist and spent four years working in
+                        rehabilitation, followed by eight years as a spa
+                        therapist, gaining valuable experience in communication,
+                        problem solving, and client‑focused thinking.
+                        <br />
+                        <br />
+                        In the last two years, I transitioned into software
+                        development and completed the full JavaScript learning
+                        path at{" "}
+                        <Link
+                            target="blank"
+                            className="underline"
+                            to="https://softuni.bg/"
+                        >
+                            SoftUni Bulgaria
+                        </Link>
+                        , covering modern web technologies such as: JavaScript
+                        (Advanced and Applications), TypeScript, React, Angular,
+                        Node.js with Express, MongoDB, HTML & CSS.
+                        <br />
+                        <br />
+                        Through this journey I built a strong foundation in
+                        full‑stack development and modern web application
+                        architecture.
+                        <br />
+                        <br />
+                        I continue to improve my skills through additional
+                        learning and practical projects. Currently I am
+                        deepening my TypeScript knowledge through advanced
+                        courses on Udemy while also expanding my stack with
+                        TanStack Query, Tailwind CSS, Zod, and Shadcn UI.
+                        <br />
+                        <br />
+                        Later this year I plan to complete PostgreSQL and DevOps
+                        courses at SoftUni to strengthen my backend and
+                        deployment knowledge. I also plan to expand into mobile
+                        development with React Native.
+                        <br />
+                        <br />I enjoy building clean, scalable, and user‑focused
+                        applications and I am always motivated to learn new
+                        technologies and improve my development skills.
                     </p>
                 </div>
                 {/* photos */}
