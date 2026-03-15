@@ -4,14 +4,14 @@ export default function Footer() {
     return (
         <div className="w-full py-5 flex flex-col gap-1">
             <p className="font-rubik text-center text-xl text-orange-400">
-                get in touch with me:
+                Get in touch with me:
             </p>
             <p className="font-rubik text-center text-2xl">
                 rayko_radev@yahoo.com
             </p>
             <div className="flex justify-around ">
                 <p className="font-syne font-bold text-[18px] self-center">
-                    That is a footer
+                    JS Developer | TypeScript | React
                 </p>
                 <div>
                     <p className="font-rubik pb-2">+359899500426</p>

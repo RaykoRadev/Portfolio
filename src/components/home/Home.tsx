@@ -380,13 +380,13 @@ export default function Home() {
                         Let's get know about me closer
                     </h3>
                     <p className="mt-5 font-rubik text-neutral-400">
-                        I'm a JavaScript developer with a background in
-                        healthcare and over a decade of professional experience
-                        working with people. After graduating as a
-                        physiotherapist and working several years in
-                        rehabilitation and wellness, I transitioned into
-                        software development and completed the full JavaScript
-                        track at SoftUni.
+                        My name is Rayko Radev a JavaScript developer with a
+                        background in healthcare and over a decade of
+                        professional experience working with people. After
+                        graduating as a physiotherapist and working several
+                        years in rehabilitation and wellness, I transitioned
+                        into software development and completed the full
+                        JavaScript track at SoftUni.
                         <br />
                         Today I focus on building modern web applications using
                         TypeScript, React, Angular, Node.js, Express, and

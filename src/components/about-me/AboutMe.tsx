@@ -97,12 +97,13 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <p className="w-full md:w-1/2 font-[Open_Sans] tracking-wide text-lg md:text-[21px] max-w-xl mx-auto md:mx-0">
-                        I am a JavaScript developer with a strong background in
-                        healthcare and client-oriented work. I graduated as a
-                        physiotherapist and spent four years working in
-                        rehabilitation, followed by eight years as a spa
-                        therapist, gaining valuable experience in communication,
-                        problem solving, and client‑focused thinking.
+                        Rayko Radev a JavaScript developer with a strong
+                        background in healthcare and client-oriented work. I
+                        graduated as a physiotherapist and spent four years
+                        working in rehabilitation, followed by eight years as a
+                        spa therapist, gaining valuable experience in
+                        communication, problem solving, and client‑focused
+                        thinking.
                         <br />
                         <br />
                         In the last two years, I transitioned into software
