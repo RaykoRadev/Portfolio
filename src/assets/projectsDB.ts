@@ -32,7 +32,7 @@ export const projects = [
             link: "https://render.com/",
         },
         description:
-            "This project was developed targeting to improve my TypeScript skills. It is based on Pet Shelter project, upgreading with TanStackQuery, Zod.",
+            "This project was developed targeting to improve my TypeScript skills. It is based on Pet Shelter project, upgrading with TanStackQuery, Zod.",
     },
     {
         _id: "2",
