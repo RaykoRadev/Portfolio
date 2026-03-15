@@ -428,7 +428,7 @@ export default function Home() {
                         onClick={myWorksHandler}
                         className={`${theme === "dark" ? "text-slate-100" : "text-gray-700"} mt-10 border border-orange-400 rounded-full px-7 py-3 font-rubik font-bold text-sm  tracking-[1.63px] self-center`}
                     >
-                        EXPLORER MORE &rarr;
+                        EXPLORE MORE &rarr;
                     </Button>
                 </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mt-10 md:mt-15">
