@@ -379,7 +379,7 @@ export default function Home() {
                     <h3 className="font-syne font-bold text-3xl text-space tracking-wide">
                         Let's get know about me closer
                     </h3>
-                    <p className="mt-5 font-rubik text-neutral-400">
+                    <p className="mt-5 lg:indent-7 font-rubik text-neutral-400">
                         My name is Rayko Radev a JavaScript developer with a
                         background in healthcare and over a decade of
                         professional experience working with people. After
@@ -387,7 +387,8 @@ export default function Home() {
                         years in rehabilitation and wellness, I transitioned
                         into software development and completed the full
                         JavaScript track at SoftUni.
-                        <br />
+                    </p>
+                    <p className="mt-3 lg:indent-7 font-rubik text-neutral-400">
                         Today I focus on building modern web applications using
                         TypeScript, React, Angular, Node.js, Express, and
                         MongoDB, while continuously expanding my skills with
