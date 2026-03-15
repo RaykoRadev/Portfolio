@@ -1,6 +1,6 @@
 export const projects = [
     {
-        _id: "8",
+        _id: "4",
         img: "https://i.ibb.co/fVcy8xqb/smart-and-happy.png",
         title: "Smart and Happy",
         technology:
@@ -18,7 +18,7 @@ export const projects = [
             "This  is a real-world application currently used in production. I developed both the frontend and backend, implementing the full architecture from the user interface to the server and database. The project focuses on creating a smooth user experience, efficient data handling, and maintainable code structure.",
     },
     {
-        _id: "7",
+        _id: "3",
         img: "https://i.ibb.co/CpC49Xd3/pet-shelter.png",
         title: "Pet shelter refactored",
         technology: "React, Tailwind, TypeScript, TanStack Query, Zod, Sonner",
@@ -32,10 +32,10 @@ export const projects = [
             link: "https://render.com/",
         },
         description:
-            "This project was developed targeting to improve my TypeScript skills. It is based on Pet Shelter project, upgreading with TanStackQuery, Zod. ",
+            "This project was developed targeting to improve my TypeScript skills. It is based on Pet Shelter project, upgreading with TanStackQuery, Zod.",
     },
     {
-        _id: "6",
+        _id: "2",
         img: "https://i.ibb.co/CpC49Xd3/pet-shelter.png",
         title: "Pet shelter",
         technology: "React, Tailwind, Node.js/Express, MongoDB, REST API",

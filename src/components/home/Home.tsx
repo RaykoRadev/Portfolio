@@ -369,7 +369,7 @@ export default function Home() {
                     onClick={myWorksHandler}
                     className="mt-10 md:mt-16 lg:mt-20 bg-orange-400 rounded-full px-7 py-4 font-rubik font-bold text-sm text-slate-100 tracking-[1.63px] self-center"
                 >
-                    EXPLORER WORKS &rarr;
+                    EXPLORE WORKS &rarr;
                 </Button>
             </div>
 
@@ -422,7 +422,7 @@ export default function Home() {
             <div className="px-10 lg:px-13 py-10">
                 <div className="flex flex-col">
                     <h2 className="font-syne font-bold text-3xl sm:text-4xl text-center text-space tracking-wide mx-auto">
-                        My Projects Highlight
+                        Project Highlights
                     </h2>
                     <Button
                         onClick={myWorksHandler}
@@ -438,10 +438,14 @@ export default function Home() {
                             src="https://i.ibb.co/fVcy8xqb/smart-and-happy.png"
                             alt=""
                         />
-                        <p className="mt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Enim minima autem accusantium officiis sed
-                            facilis tempora perspiciatis veniam quam animi!
+                        <p className="mt-5 line-clamp-2">
+                            This is a real-world application currently used in
+                            production. I developed both the frontend and
+                            backend, implementing the full architecture from the
+                            user interface to the server and database. The
+                            project focuses on creating a smooth user
+                            experience, efficient data handling, and
+                            maintainable code structure.
                         </p>
                     </div>
                     <div className="md:w-1/2 text-center md:text-left">
@@ -450,10 +454,10 @@ export default function Home() {
                             src="https://i.ibb.co/CpC49Xd3/pet-shelter.png"
                             alt=""
                         />
-                        <p className="mt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Enim minima autem accusantium officiis sed
-                            facilis tempora perspiciatis veniam quam animi!
+                        <p className="mt-5 line-clamp-2">
+                            This project was developed targeting to improve my
+                            TypeScript skills. It is based on Pet Shelter
+                            project, upgreading with TanStackQuery, Zod.
                         </p>
                     </div>
                 </div>
