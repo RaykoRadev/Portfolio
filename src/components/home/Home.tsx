@@ -422,7 +422,7 @@ export default function Home() {
             <div className="px-10 lg:px-13 py-10">
                 <div className="flex flex-col">
                     <h2 className="font-syne font-bold text-3xl sm:text-4xl text-center text-space tracking-wide mx-auto">
-                        Project Highlights
+                        Featured Project
                     </h2>
                     <Button
                         onClick={myWorksHandler}
